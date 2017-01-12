@@ -1,6 +1,6 @@
 
 // Para los inputs
-document.getElementById("inputEmail").value=" ";
+document.getElementById("inputEmail").value="";
 document.getElementById("inputEmail").placeholder="Correo Electrónico";
 
 document.getElementById("inputPassword").value="";
@@ -14,4 +14,4 @@ h2.innerHTML='<h2>Por favor inicia sesión</h2>';
 document.getElementsByTagName("SPAN")[0].innerHTML = "Recordar datos";
 
 // Para el button
-var x=document.getElementsByTagName("BUTTON")[0].innerHTML= "Iniciar Sesión";
+document.getElementsByTagName("BUTTON")[0].innerHTML= "Iniciar Sesión";
